@@ -11,9 +11,13 @@ Convert a structured table in an editable Microsoft Word document into six switc
 - [Example QA report](output/hierarchy_example/qa_report.md)
 - [Automated tests](tests/test_render_hierarchy.py)
 
-After enabling GitHub Pages, the live demonstration will be:
+## Live Demo
 
-https://cloudpedagogy.github.io/cloudpedagogy-word-hierarchy-renderer/output/hierarchy_example/
+[View the Word Hierarchy Renderer demo](http://cloudpedagogy-word-hierarchy-renderer.s3-website.eu-west-2.amazonaws.com/)
+
+## Screenshot
+
+![Word Hierarchy Renderer screenshot](img/screenshot.png)
 
 ## Quick start
 
