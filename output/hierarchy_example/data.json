@@ -1,0 +1,157 @@
+{
+  "settings": {
+    "title": "Moodle Course Portfolio",
+    "subtitle": "Example institutional hierarchy generated from editable Word tables",
+    "default_layout": "tree",
+    "allow_layout_switching": "true",
+    "colour_by": "type",
+    "size_by": "value",
+    "show_labels": "true",
+    "theme": "light"
+  },
+  "nodes": [
+    {
+      "id": "lshtm",
+      "parent_id": "",
+      "label": "LSHTM",
+      "type": "Institution",
+      "value": 100.0,
+      "status": "Active",
+      "description": "London School of Hygiene & Tropical Medicine.",
+      "color": "#2457A7",
+      "link": ""
+    },
+    {
+      "id": "php",
+      "parent_id": "lshtm",
+      "label": "Public Health and Policy",
+      "type": "Faculty",
+      "value": 55.0,
+      "status": "Active",
+      "description": "Faculty portfolio.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "eph",
+      "parent_id": "lshtm",
+      "label": "Epidemiology and Population Health",
+      "type": "Faculty",
+      "value": 45.0,
+      "status": "Active",
+      "description": "Faculty portfolio.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "mscph",
+      "parent_id": "php",
+      "label": "MSc Public Health",
+      "type": "Programme",
+      "value": 32.0,
+      "status": "Redesign",
+      "description": "Programme with core and elective modules.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "ghp",
+      "parent_id": "php",
+      "label": "MSc Global Health Policy",
+      "type": "Programme",
+      "value": 23.0,
+      "status": "Active",
+      "description": "Global health policy programme.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "epi",
+      "parent_id": "eph",
+      "label": "MSc Epidemiology",
+      "type": "Programme",
+      "value": 28.0,
+      "status": "Active",
+      "description": "Epidemiology programme.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "core",
+      "parent_id": "mscph",
+      "label": "Core modules",
+      "type": "Module group",
+      "value": 18.0,
+      "status": "Active",
+      "description": "Required modules shared by all students.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "elective",
+      "parent_id": "mscph",
+      "label": "Elective modules",
+      "type": "Module group",
+      "value": 14.0,
+      "status": "Active",
+      "description": "Optional specialist modules.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "phm102",
+      "parent_id": "core",
+      "label": "Basic Statistics",
+      "type": "Module",
+      "value": 250.0,
+      "status": "Active",
+      "description": "Introductory statistical concepts and methods.",
+      "color": "#469D77",
+      "link": "https://www.lshtm.ac.uk/"
+    },
+    {
+      "id": "phm201",
+      "parent_id": "core",
+      "label": "Epidemiology",
+      "type": "Module",
+      "value": 230.0,
+      "status": "Active",
+      "description": "Core epidemiology teaching.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "ghm201",
+      "parent_id": "ghp",
+      "label": "Global Health Policy",
+      "type": "Module",
+      "value": 120.0,
+      "status": "Review",
+      "description": "Policy analysis and global health governance.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "epm101",
+      "parent_id": "epi",
+      "label": "Study Design",
+      "type": "Module",
+      "value": 160.0,
+      "status": "Active",
+      "description": "Study design and critical appraisal.",
+      "color": "",
+      "link": ""
+    },
+    {
+      "id": "epm202",
+      "parent_id": "epi",
+      "label": "Advanced Methods",
+      "type": "Module",
+      "value": 90.0,
+      "status": "Active",
+      "description": "Advanced epidemiological methods.",
+      "color": "",
+      "link": ""
+    }
+  ]
+}
